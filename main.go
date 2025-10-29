@@ -35,7 +35,7 @@ func main() {
 			ids[count] = nextID
 			nextID++
 
-			fmt.Print("Nhập tên món (1 từ, không dấu cách): ")
+			fmt.Print("Nhập tên món: ")
 			fmt.Scan(&names[count])
 			fmt.Print("Nhập giá: ")
 			fmt.Scan(&prices[count])
